@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTA Platform - Authentication</title>
+</head>
+<body>
+    <h1>Welcome to the OTA Platform</h1>
+
+    <!-- Sign Up Form -->
+    <div>
+        <h2>Sign Up</h2>
+        <input type="email" id="signup-email" placeholder="Email">
+        <input type="password" id="signup-password" placeholder="Password">
+        <button onclick="signUp()">Sign Up</button>
+    </div>
+
+    <!-- Sign In Form -->
+    <div>
+        <h2>Sign In</h2>
+        <input type="email" id="signin-email" placeholder="Email">
+        <input type="password" id="signin-password" placeholder="Password">
+        <button onclick="signIn()">Sign In</button>
+    </div>
+
+    <!-- Link to your JavaScript files -->
+    <script type="module" src="./firebase-config.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
